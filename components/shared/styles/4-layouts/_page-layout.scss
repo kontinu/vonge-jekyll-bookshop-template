@@ -64,7 +64,7 @@
 
 .post-tags {
 	display: flex;
-	
+
 	.post-tags__tag {
 		position: relative;
 		z-index: 1;
@@ -364,7 +364,7 @@
 	@media only screen and (max-width: $tablet) {
 		flex-wrap: wrap;
 
-		
+
 		.post__prev, .post__next {
 			width: 100%;
 
