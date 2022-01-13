@@ -2,3 +2,5 @@
 
 - [ ] Add Devops Roadmap videos
 - [ ] Fix the color contrasts for buttons and text.
+- [ ] Remove Blog
+- [ ] Rename Elements
