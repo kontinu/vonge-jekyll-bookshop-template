@@ -1,16 +1,21 @@
 /* Color Scheme */
-$primary-color:  #58B292; //  #85F0A0;
+$primary-color:  #49cea0; //  #85F0A0;
 $secondary-color: #374867;
 $white: #fff;
-$dark: #110E38;
+$dark: #374867;
 $gray: #cfe9eb;
 $light-gray: #f5f5f5;
-$blue-gray: #d5dce3;
+$blue-gray: #4d6591;
+$blue: #4d6591;
+$light-green: #85F0A0;
+$dark-green:  #59B392;
+$dark-teal: #2A95AE;
+
 
 $background-color: #374867;
+$over-background-color: $blue-gray;
 
-
-$background-color-alt: $white;
+$background-color-alt: $blue-gray;
 
 $text-color: $gray;
 
@@ -21,7 +26,7 @@ $link-color-hover: $text-color;
 
 $button-color: $background-color-alt;
 $button-background-color: $primary-color;
-$button-background-hover: darken($primary-color, 5%);
+$button-background-hover: darken($primary-color, 15%);
 
 $border-color: $blue-gray;
 
