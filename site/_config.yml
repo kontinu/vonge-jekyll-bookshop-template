@@ -34,6 +34,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  specialities:
+    output: true
+    permalink: /speciality/:slug
   testimonials:
     output: false
   posts:
@@ -47,6 +50,9 @@ cloudcannon:
     projects:
       _icon: 'work_outline'
       _subtext_key: subtitle
+    specialities:
+      _icon: 'work_outline'
+      _subtext_key: subtitle
     testimonials:
       _icon: 'format_quote'
       _subtext_key: position
@@ -58,6 +64,7 @@ _collection_groups:
     collections:
       - pages
       - projects
+      - specialities
       - testimonials
   - heading: Blogging
     collections:
@@ -81,6 +88,10 @@ defaults:
       type: projects
     values:
       layout: project
+  - scope:
+      type: speciailities
+    values:
+      layout: speciality
   - scope:
       type: posts
     values:

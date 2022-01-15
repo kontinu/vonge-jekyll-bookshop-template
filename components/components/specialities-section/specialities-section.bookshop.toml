@@ -1,0 +1,12 @@
+[component]
+structures = [ "content_blocks" ]
+label = "Specialities"
+description = "Specialities Section with heading, a description and a link"
+icon = "wysiwyg"
+tags = ["Content"]
+
+[props]
+title = "Specialities"
+description_html = "I show only my best works built completely with passion, simplicity, and creativity!"
+link_url = "/speciailities"
+show_specialities = true

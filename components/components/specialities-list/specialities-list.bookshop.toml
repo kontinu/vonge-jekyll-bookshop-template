@@ -1,0 +1,9 @@
+[component]
+structures = [ "content_blocks" ]
+label = "specialities List"
+description = "Lists all of the site's specialities"
+icon = "wysiwyg"
+tags = ["Collections"]
+
+[props]
+show_specialities = true

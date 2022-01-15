@@ -1,0 +1,9 @@
+{% if include.show_specialities %}
+<div class="container animate">
+  <div class="row">
+    {% for speciaility in site.speciailities %}
+      {% bookshop project-card project=speciality %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
